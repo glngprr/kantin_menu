@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// Font Poppins dipilih karena hurufnya bulat, bersih, dan mudah dibaca di layar
-// kecil, cocok untuk aplikasi menu kantin. Ukuran, ketebalan, dan warna dibuat
-// sebagai parameter agar satu widget bisa dipakai untuk judul, nama, dan harga.
+// Font Poppins digunakan karena memiliki bentuk huruf yang sederhana, rapi, dan nyaman dibaca.
+// Ukuran, ketebalan, warna, dan style teks dibuat fleksibel agar widget dapat beragam digunakan
+// di berbagai bagian aplikasi sesuai kebutuhan desain dan konteks tampilan.
 class CustomText extends StatelessWidget {
   final String text;
   final double fontSize;
