@@ -59,7 +59,7 @@ class _AddMenuScreenState extends State<AddMenuScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
         title: const CustomText(
           'Tambah Menu',
@@ -97,9 +97,9 @@ class _AddMenuScreenState extends State<AddMenuScreen> {
               ElevatedButton(
                 onPressed: _simpan,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.deepOrange,
+                  backgroundColor: Colors.teal,
                   foregroundColor: Colors.white,
-                  padding: const EdgeInsets.symmetric(vertical: 14),
+                  padding: const EdgeInsets.symmetric(vertical: 20),
                 ),
                 child: const CustomText('Simpan', fontWeight: FontWeight.w600),
               ),

@@ -36,7 +36,7 @@ class _MenuListScreenState extends State<MenuListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
         title: const CustomText(
           'Menu Kantin',
@@ -70,14 +70,13 @@ class _MenuListScreenState extends State<MenuListScreen> {
                   child: ListTile(
                     leading: const Icon(
                       Icons.restaurant_menu,
-                      color: Colors.deepOrange,
+                      color: Colors.teal,
                     ),
                     title: CustomText(menu.nama, fontWeight: FontWeight.w600),
                     subtitle: CustomText(
                       menu.hargaRupiah,
                       fontSize: 14,
                       color: Colors.black54,
-                      fontStyle: FontStyle.italic,
                     ),
                     trailing: const Icon(Icons.chevron_right),
                     onTap: () => Get.to(() => MenuDetailScreen(menu: menu)),

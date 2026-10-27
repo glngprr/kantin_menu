@@ -13,7 +13,7 @@ class MenuDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
         title: const CustomText(
           'Detail Menu',
@@ -27,13 +27,19 @@ class MenuDetailScreen extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(Icons.restaurant, size: 72, color: Colors.deepOrange),
+              const Icon(Icons.restaurant, size: 72, color: Colors.teal),
               const SizedBox(height: 16),
               CustomText(menu.nama, fontSize: 24, fontWeight: FontWeight.bold),
               const SizedBox(height: 8),
               CustomText(menu.hargaRupiah, fontSize: 20, color: Colors.black54),
               const SizedBox(height: 24),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 18,
+                    horizontal: 30,
+                  ),
+                ),
                 onPressed: () => Get.back(),
                 child: const CustomText(
                   'Kembali ke Daftar',

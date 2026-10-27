@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Menu Kantin',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
       home: const MenuListScreen(),
     );
