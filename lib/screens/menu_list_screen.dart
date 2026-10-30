@@ -10,7 +10,9 @@ class MenuListScreen extends StatefulWidget {
   const MenuListScreen({super.key});
 
   @override
-  State<MenuListScreen> createState() => _MenuListScreenState();
+  State<MenuListScreen> createState() {
+    return _MenuListScreenState();
+  }
 }
 
 class _MenuListScreenState extends State<MenuListScreen> {

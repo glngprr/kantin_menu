@@ -9,7 +9,9 @@ class AddMenuScreen extends StatefulWidget {
   const AddMenuScreen({super.key});
 
   @override
-  State<AddMenuScreen> createState() => _AddMenuScreenState();
+  State<AddMenuScreen> createState() {
+    return _AddMenuScreenState();
+  }
 }
 
 class _AddMenuScreenState extends State<AddMenuScreen> {
